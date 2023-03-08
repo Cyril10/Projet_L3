@@ -1,5 +1,5 @@
 gcc -Wall <nom du programme à compiler> <librairie à aller chercher>
 
 git add *
-git commit "titre du commit"
+git commit -m "titre du commit"
 git push origin main
