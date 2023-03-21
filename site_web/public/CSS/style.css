@@ -1,0 +1,336 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+
+.home {
+  height: 100%;
+  background-color: rgb(224, 224, 221);
+}
+
+.HomeNFT {
+  height: 100%;
+  background-color: rgb(224, 224, 221);
+}
+
+.HomeConnexion {
+  height: 100%;
+  background-color: rgb(224, 224, 221);
+}
+
+.home::before {
+  right: 67%;
+  top: 15%;
+  position: absolute;
+  content: "";
+  height: 40vw;
+  width: 40vw;
+  border-radius: 100%;
+  background-color: gray;
+  opacity: 0.1;
+}
+
+.home::after {
+  left: 50%;
+  top: 30%;
+  position: absolute;
+  content: "";
+  height: 25vw;
+  width: 37vw;
+  background-color: gray;
+  opacity: 0.1;
+  z-index: 0;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 3vw;
+  font-family: 'Poppins', sans-serif;
+}
+
+#logo {
+  top: 2%;
+  width: 7%;
+  height: 7%;
+}
+
+#logocréationNFT {
+  width: 100px;
+  height: 90px;
+}
+
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+#cont {
+  text-align: center;
+}
+
+#Contact {
+  display: inline-block;
+  position: fixed;
+  top: 3%;
+  left: 85%;
+}
+
+#Connex {
+  position: relative;
+  top: 50%;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+#CreerCompte {
+  display: inline-block;
+
+}
+
+#Connexion {
+  display: inline-block;
+}
+
+a {
+  display: inline-block;
+  font-size: 1vw;
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+a img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#Menu {
+  position: absolute;
+  top: 4%;
+  left: 35%;
+  justify-content: center;
+  align-items: center;
+}
+
+#m {
+  position: absolute;
+  top: 3%;
+  left: 75%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#Exemple {
+  z-index: 2;
+  float: right;
+  position: relative;
+  width: 35vw;
+  height: 35vw;
+  object-fit: contain;
+  margin-right: 10%;
+  margin-top: 3%;
+}
+
+#PA {
+  margin-top: 80px;
+  margin-left: 70px;
+  position: absolute;
+  top: 15%;
+  float: right;
+}
+
+#CreerunNFT {
+  position: relative;
+  top: 50%;
+  display: inline-block;
+  margin-left: 90px;
+}
+
+
+.Connexion {
+  align-content: center;
+  border: 2px solid rgb(38, 52, 109);
+  ;
+  outline: none;
+  background: rgb(38, 52, 109);
+  ;
+  font-size: 1vw;
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+  color: white;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.Connexion :nth-child(1) {
+  margin-right: 30px;
+}
+
+.Connexion:hover {
+  transition: all 0.3s ease-in-out;
+  border: 2px solid rgb(138, 175, 214);
+  background: rgb(138, 175, 214);
+  color: black;
+}
+
+
+.contact {
+  border: 2px solid #000;
+  outline: none;
+  background: #000;
+  font-size: 1vw;
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+  color: white;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.contact :nth-child(1) {
+  margin-right: 30px;
+}
+
+.contact:hover {
+  transition: all 0.3s ease-in-out;
+  background: rgb(224, 224, 221);
+  ;
+  color: black;
+}
+
+
+.NFTcreation {
+  border: 2px solid rgb(138, 175, 214);
+  outline: none;
+  background: rgb(138, 175, 214);
+  font-size: 1vw;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  color: #000;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+.NFTcreation :nth-child(1) {
+  margin-right: 30px;
+}
+
+.NFTcreation:hover {
+  transition: all 0.3s ease-in-out;
+  border: 2px solid rgb(38, 52, 109);
+  background: rgb(38, 52, 109);
+  color: #fff;
+}
+
+
+table,
+th,
+td {
+  border: 1px solid;
+}
+
+
+.ChangeText {
+  color: #534788;
+}
+
+
+#FormulaireCreerNFT {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+#FormConnexion {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  top: 1%;
+}
+
+form {
+  margin-top: 20px;
+  background-color: rgb(38, 52, 109);
+  padding: 40px 60px;
+  border-radius: 10px;
+  min-width: 300px;
+}
+
+#fh {
+  color: #fff;
+  text-align: center;
+}
+
+form p.input {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.fc {
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+
+.btn {
+  align-items: center;
+  padding: 15px 25px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  color: #fff;
+  background-color: rgb(138, 175, 214);
+  outline: none;
+  cursor: pointer;
+}
+
+
+.btn :nth-child(1) {
+  margin-right: 30px;
+}
+
+.btn:hover {
+  transition: all 0.3s ease-in-out;
+  background: rgb(224, 224, 221);
+  color: black;
+}
+
+
+#Frome {
+  color: #fff;
+}

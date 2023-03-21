@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="678.0" prefWidth="441.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appli_utilisateur_civil.gui.GUIController">
+   <children>
+      <Label layoutX="109.0" layoutY="52.0" prefHeight="51.0" prefWidth="223.0" text="NFT d'identité">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Button layoutX="84.0" layoutY="189.0" mnemonicParsing="false" onAction="#recuperationNFT" text="Récupérer son NFT">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Button>
+      <Button layoutX="84.0" layoutY="300.0" mnemonicParsing="false" onAction="#VisualisationNFT" prefHeight="58.0" prefWidth="273.0" text="Visualiser son NFT">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Button>
+      <Button layoutX="84.0" layoutY="420.0" mnemonicParsing="false" onAction="#EnvoiNFT" prefHeight="58.0" prefWidth="273.0" text="Envoyer son NFT">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

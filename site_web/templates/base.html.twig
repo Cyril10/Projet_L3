@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+           
+
+        <meta charset="UTF-8">
+        <title>{% block title %}NFTidentity{% endblock %}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+         <link rel="stylesheet" href="{{ asset('CSS/style.css')}}">
+        {% block stylesheets %}
+
+
+
+
+
+        {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
+        {% endblock %}
+
+        {% block javascripts %}
+        {% endblock %}
+
+    </head>
+    <body>
+        {% block body %}{% endblock %}
+
+
+    </body>
+</html>

@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Créer Votre NFT{% endblock %}
+
+{% block body %}
+
+    <section class="HomeConnexion">
+  <div id="logocréationNFT">    
+   <a href=" {{ path('main')}}"> <img src={{ asset( "media/logoNFTidentity.png")}} > </a>
+
+
+</section>
+
+    {% include "nft_creation/_form.html.twig" %}
+{% endblock %}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{ asset('CSS/style.css')}}">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        </head>
+
+<body>
+<section class="HomeConnexion">
+  <div id="logocréationNFT">    
+   <a href=" {{ path('main')}}"> <img src={{ asset( "media/logoNFTidentity.png")}} > </a>
+   </div>
+<div id="FormConnexion">
+
+    {{ form_start(registrationForm)}}
+
+        <h2 id="fh">Inscription</h2>
+
+        {{ form_row(registrationForm.email, {'attr': {'class' : 'fc', 'placeholder' : 'Adresse Mail'}})}}
+        {{ form_row(registrationForm.plainPassword, {
+            'attr': {'class' : 'fc', 'placeholder' :'Mot de passe'}
+        }) }}
+
+        <button type="submit" class="btn">S'inscrire</button>
+
+
+    {{ form_end(registrationForm) }}
+    
+    </div>
+    </section>
+
+    </body>

@@ -1,0 +1,21 @@
+
+
+<div id="FormConnexion">
+{{ form_start(Permiform) }}
+<h2 id="fh">Information Permi</h2>
+
+    {{ form_row(Permiform.NumeroPermi,{'attr': {'class' : 'fc', 'placeholder' : 'Numéro permi'}}) }}
+    {{ form_row(Permiform.TypeVehicule,{'attr': {'class' : 'fc', 'placeholder' : 'Type de véhicule'}}) }}
+    {{ form_row(Permiform.NEPH,{'attr': {'class' : 'fc', 'placeholder' : 'Numero NEPH'}}) }}
+
+
+{{
+     '<button type="submit" onclick=" validation()" class="btn"  > Valider </button>'
+}}
+
+
+
+
+{{ form_end(Permiform) }}
+
+

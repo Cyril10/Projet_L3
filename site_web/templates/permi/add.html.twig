@@ -1,0 +1,23 @@
+
+
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{ asset('CSS/style.css')}}">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        </head>
+  
+
+
+{% block body %}
+  <section class="HomeConnexion">
+  <div id="logocréationNFT">    
+   <a href=" {{ path('main')}}"> <img src={{ asset( "media/logoNFTidentity.png")}} > </a>
+
+
+
+    {% include "permi/_form.html.twig" %}
+</section>
+    <script src=" {{ asset('js/script.js')}}"> </script>
+{% endblock %}

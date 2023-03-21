@@ -1,0 +1,21 @@
+
+
+<div id="FormConnexion">
+
+
+{{ form_start(ContactForm) }}
+
+<h2 id="fh">Contact</h2>
+    {{ form_row(ContactForm.email,{'attr': {'class' : 'fc', 'placeholder' : 'Adresse Mail'}}) }}
+   <br>
+    {{ form_row(ContactForm.objet, {'attr': {'class' : 'fc', 'placeholder' : 'Objet Demande'}}) }}
+    {{ form_row(ContactForm.Form, {'attr': {'class' : 'fc', placeholder : "1000 charactères maximum"}}) }}
+
+
+{{
+    '<button type="submit" onclick=" contact() " class="btn" > Valider </button>'
+
+    }}
+{{ form_end(ContactForm) }}
+
+  </div>

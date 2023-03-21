@@ -1,0 +1,18 @@
+
+
+<div id="FormConnexion">
+
+
+{{ form_start(NFTform) }}
+
+<h2 id="fh">Données identité</h2>
+
+    {{ form_row(NFTform.Nom,{'attr': {'class' : 'fc', 'placeholder' : 'Nom'}}) }}
+    {{ form_row(NFTform.Prenom,{'attr': {'class' : 'fc', 'placeholder' : 'Prenom'}}) }}
+    {{ form_row(NFTform.D_naissance) }}
+    <br>
+    {{ form_row(NFTform.Lieu_naissance,{'attr': {'class' : 'fc', 'placeholder' : 'Lieu de naissance'}}) }}
+
+
+    <button type="submit" class="btn"> Valider </button>
+{{ form_end(NFTform) }}
